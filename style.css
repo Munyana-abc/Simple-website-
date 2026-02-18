@@ -1,0 +1,87 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    main{
+        padding: 0px;
+    }
+
+    .navigation{
+        padding: 15px;
+        /* border: 1px solid black; */
+        box-shadow: 0 0 5px rgba(64, 64, 64, 0.76);
+        background-color: white;
+        display: flex; /* to make the logo and the list of navigation links appear in a row */
+        justify-content: space-between;
+        position: fixed;
+        left: 0;
+        right: 0;
+
+        
+    }
+    .logo{
+        font-size: 18px;
+        color: black;
+        padding: 4px;
+    }
+    .logo-p{
+        font-size: 20px;
+        color: black;
+        padding: 4px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .logo:hover{
+        background-color: grey;
+        cursor: pointer;
+    }
+    .logo{
+        font-size: 20px;
+        color: black;
+        padding: 4px;
+        font-weight: bold;
+    }
+    .logo span{
+        color: black;
+    
+    }
+    .listNavigation{
+        display: flex;
+        padding: 8px;
+        gap: 18px;
+        list-style: none;
+    }
+    .listNavigation a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .listNavigation a:hover{
+        background-color: grey;
+        cursor: pointer;
+    }
+    .HeroSection{
+        padding: 20px;
+        background-color: #f5f5f5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        
+        
+    }
+
+    .HeroSection h1 {
+    
+        
+
+        
+        
+    }
+    
+
